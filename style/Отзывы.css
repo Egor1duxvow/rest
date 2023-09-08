@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Mono&family=Mulish&family=Open+Sans&family=Poppins&family=Preahvihear&family=Prompt&family=Roboto&family=Tinos&display=swap");
+body{
+    background: linear-gradient(0deg, rgba(134,98,43,1) 0%, rgba(247,184,112,1) 85%) no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+ion-icon{
+    position: absolute;
+    font-size: 2em;
+    left: 10px;
+    top: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color:  white;
+    border-radius: 10px;
+}
+ion-icon:hover{
+  transform: scale(1.05);
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.card-v{
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 700px;
+    margin: 20px 0;
+    min-height: 150px;
+    background-color: rgb(231, 228, 186);
+    border-radius: 10px;
+    padding: 0 15px 0 15px;
+}
+.card-v img{
+
+    border-radius: 50%;
+}
+.text{
+    margin-left: 40px;
+    
+}
+.text p{
+    font-family: "Prompt", sans-serif;
+    color: rgb(136, 135, 135);
+}

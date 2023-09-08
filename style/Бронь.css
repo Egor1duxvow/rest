@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=IBM+Plex+Mono&family=Mulish&family=Open+Sans&family=Poppins&family=Preahvihear&family=Prompt&family=Roboto&family=Tinos&display=swap");
+body{
+    font-family: 'Open Sans';
+    background: url(https://oir.mobi/uploads/posts/2021-03/1616971762_24-p-fon-dlya-rabochego-stola-minimalizm-25.jpg) no-repeat;
+    background-size: cover;
+}
+ion-icon{
+    position: absolute;
+    font-size: 2em;
+    left: 10px;
+    top: 10px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color:  white;
+    border-radius: 10px;
+}
+ion-icon:hover{
+  transform: scale(1.05);
+}
+.main_V{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    padding: 0 15px 15px 15px;
+    border-radius: 20px;
+    width: 450px;
+    height: 600px;
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff;
+}
+.main p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.6em;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-content:space-around ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 300px;
+}
+
+.box span{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.name{
+    margin-bottom: 10px
+}
+.box input{
+    outline: none;
+    border: none;
+    height: 100%;
+    padding: 5px 15px;
+    float: right;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.box input::placeholder{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-weight: 700;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: none;
+    font-size: 1.5em;
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+}
+.button:hover{
+    transform: scale(1.03);
+}
